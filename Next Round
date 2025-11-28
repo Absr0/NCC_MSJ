@@ -1,0 +1,9 @@
+n, k = map(int, input().split())
+s = list(map(int, input().split()))
+count = 0
+t = s[k-1]  
+for i in s:
+    if i >= t and i > 0:  
+        count += 1
+ 
+print(count)
