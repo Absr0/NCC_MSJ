@@ -1,0 +1,7 @@
+num=input().strip()
+a=num[0:3]
+if a=='555':
+    print(1)
+else:
+    print(0)
+
