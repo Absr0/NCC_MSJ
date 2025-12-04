@@ -1,0 +1,6 @@
+name=input().strip()
+a=name[0]
+for i in range(len(name)):
+    if name[i]=='-':
+        a+=name[i+1]
+print(a.upper())
