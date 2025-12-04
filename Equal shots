@@ -1,0 +1,15 @@
+a, b = map(int, input().split())
+V1, A1 = 0, 0
+for i in range(a):
+    v, c = map(int, input().split())
+    V1 += v
+    A1 += v * c
+V2, A2 = 0, 0
+for j in range(b):
+    v, c = map(int, input().split())
+    V2 += v
+    A2 += v * c
+if A1 * V2 == A2 * V1:   
+    print("same")
+else:
+    print("different")
