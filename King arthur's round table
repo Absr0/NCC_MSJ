@@ -1,0 +1,10 @@
+d = float(input().strip())   
+w = float(input().strip())   
+n = int(input().strip())    
+pi = 3.14159
+c = pi * d
+r = n * w
+if c >= r:
+    print("YES")
+else:
+    print("NO")
