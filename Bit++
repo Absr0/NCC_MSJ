@@ -1,0 +1,9 @@
+n=int(input().strip())
+x=0
+for i in range(n):
+    y=input().strip()
+    if '++' in y:
+        x+=1
+    else:
+        x-=1
+print(x)
