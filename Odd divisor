@@ -1,0 +1,7 @@
+t = int(input().strip())
+for _ in range(t):
+    n = int(input().strip())
+    if n & (n - 1) == 0:  # power of 2 check
+        print("NO")
+    else:
+        print("YES")
