@@ -1,0 +1,5 @@
+test=int(input())
+for i in range(test):
+    c=input()
+    a,b=map(int,c.split('+'))
+    print(a+b)
