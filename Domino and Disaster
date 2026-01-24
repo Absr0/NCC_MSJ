@@ -1,0 +1,13 @@
+test=int(input())
+for i in range(test):
+    n=int(input())
+    a=input()
+    b=""
+    for j in a:
+        if j=="U":
+            b+="D"
+        elif j=="D":
+            b+="U"
+        else:
+            b+=j
+    print(b)
