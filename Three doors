@@ -1,0 +1,15 @@
+t=int(input())
+for _ in range(t):
+    x=int(input())
+    a,b,c=map(int,input().split())
+    keys = [a,b,c]
+    openn=0
+    for i in range(3):
+        if x==0:
+            break
+        openn+=1
+        x=keys[x-1]
+    if openn==3:
+             print("YES")
+    else:
+             print("No")
