@@ -1,0 +1,10 @@
+t=int(input())
+for _ in range(t):
+    n,m=map(int,input().split())
+    a = input()
+    needed = 0
+    for ch in "ABCDEFG":
+        count = a.count(ch)
+        if count < m:
+            needed += (m - count)
+    print(needed)
