@@ -1,0 +1,5 @@
+n,m=map(int,input().split())
+b=n//m
+r=n%m
+a=[b+1]*r+[b]*(m-r)
+print(*a)
